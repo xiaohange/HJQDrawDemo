@@ -80,6 +80,13 @@
                                     <segue destination="mdU-jz-CKn" kind="show" id="z5m-2a-DCD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKv-Il-R8T">
+                                <rect key="frame" x="90" y="605" width="194" height="30"/>
+                                <state key="normal" title="09-圆形上下文progressView"/>
+                                <connections>
+                                    <segue destination="9dL-jD-NjS" kind="show" id="FpR-Cr-amu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -166,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iFZ-qo-8dM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39.5" y="1236.5"/>
+            <point key="canvasLocation" x="-277.5" y="1236.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uMc-HT-eGT">
@@ -191,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7N-8T-fDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="466.5" y="1236.5"/>
+            <point key="canvasLocation" x="130.5" y="1236.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rmb-4T-nlW">
@@ -216,7 +223,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4Z-Q6-bEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="913.5" y="1236.5"/>
+            <point key="canvasLocation" x="541.5" y="1236.5"/>
+        </scene>
+        <!--Progress View Controller-->
+        <scene sceneID="wmL-Fc-Uuu">
+            <objects>
+                <viewController id="9dL-jD-NjS" customClass="HRProgressViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YQb-QN-nn4"/>
+                        <viewControllerLayoutGuide type="bottom" id="xuv-Wf-Jvn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v6c-zo-kV8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rb-Lg-v1e">
+                                <rect key="frame" x="120" y="483" width="134" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="StartAnimation">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startAnimationAction:" destination="9dL-jD-NjS" eventType="touchUpInside" id="Z0p-9P-rKa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6mk-7t-jaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950.5" y="1236.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BWh-B2-t7u">

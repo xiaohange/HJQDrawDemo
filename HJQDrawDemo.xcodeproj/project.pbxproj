@@ -35,6 +35,9 @@
 		471868C81D72E15F00BAD9DD /* 雪花.png in Resources */ = {isa = PBXBuildFile; fileRef = 471868C71D72E15F00BAD9DD /* 雪花.png */; };
 		471868CC1D72E24C00BAD9DD /* HJQCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 471868CB1D72E24C00BAD9DD /* HJQCustomView.m */; };
 		471868D01D72E32400BAD9DD /* HJQRectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 471868CF1D72E32400BAD9DD /* HJQRectangleView.m */; };
+		4754B6D51D79656500EBB4DA /* HJQLastCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4754B6D41D79656500EBB4DA /* HJQLastCustomView.m */; };
+		4754B6D81D796A0000EBB4DA /* HJQCountTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4754B6D71D796A0000EBB4DA /* HJQCountTimeView.m */; };
+		4754B6DE1D796E2400EBB4DA /* HRProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4754B6DD1D796E2400EBB4DA /* HRProgressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +107,12 @@
 		471868CB1D72E24C00BAD9DD /* HJQCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQCustomView.m; sourceTree = "<group>"; };
 		471868CE1D72E32400BAD9DD /* HJQRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQRectangleView.h; sourceTree = "<group>"; };
 		471868CF1D72E32400BAD9DD /* HJQRectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQRectangleView.m; sourceTree = "<group>"; };
+		4754B6D31D79656500EBB4DA /* HJQLastCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQLastCustomView.h; sourceTree = "<group>"; };
+		4754B6D41D79656500EBB4DA /* HJQLastCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQLastCustomView.m; sourceTree = "<group>"; };
+		4754B6D61D796A0000EBB4DA /* HJQCountTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQCountTimeView.h; sourceTree = "<group>"; };
+		4754B6D71D796A0000EBB4DA /* HJQCountTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQCountTimeView.m; sourceTree = "<group>"; };
+		4754B6DC1D796E2400EBB4DA /* HRProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRProgressViewController.h; sourceTree = "<group>"; };
+		4754B6DD1D796E2400EBB4DA /* HRProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRProgressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +177,7 @@
 				471868C31D72E0AD00BAD9DD /* 07-雪花 */,
 				471868C91D72E22E00BAD9DD /* 08-图形上下文栈 */,
 				471868CD1D72E2D400BAD9DD /* 09-矩阵操作 */,
+				4754B6D21D79647E00EBB4DA /* 10-圆形上下文 */,
 				471868611D72CF5400BAD9DD /* AppDelegate.h */,
 				471868621D72CF5400BAD9DD /* AppDelegate.m */,
 				471868641D72CF5400BAD9DD /* ViewController.h */,
@@ -317,6 +327,19 @@
 			path = "09-矩阵操作";
 			sourceTree = "<group>";
 		};
+		4754B6D21D79647E00EBB4DA /* 10-圆形上下文 */ = {
+			isa = PBXGroup;
+			children = (
+				4754B6D31D79656500EBB4DA /* HJQLastCustomView.h */,
+				4754B6D41D79656500EBB4DA /* HJQLastCustomView.m */,
+				4754B6D61D796A0000EBB4DA /* HJQCountTimeView.h */,
+				4754B6D71D796A0000EBB4DA /* HJQCountTimeView.m */,
+				4754B6DC1D796E2400EBB4DA /* HRProgressViewController.h */,
+				4754B6DD1D796E2400EBB4DA /* HRProgressViewController.m */,
+			);
+			path = "10-圆形上下文";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -456,11 +479,14 @@
 				471868C61D72E0F900BAD9DD /* HJQSnowflakeView.m in Sources */,
 				471868661D72CF5400BAD9DD /* ViewController.m in Sources */,
 				471868BB1D72DF0100BAD9DD /* HJQImageView.m in Sources */,
+				4754B6D51D79656500EBB4DA /* HJQLastCustomView.m in Sources */,
 				471868631D72CF5400BAD9DD /* AppDelegate.m in Sources */,
 				471868AC1D72DAA900BAD9DD /* UIColor+Random.m in Sources */,
 				471868A91D72D91500BAD9DD /* HJQPieView.m in Sources */,
+				4754B6DE1D796E2400EBB4DA /* HRProgressViewController.m in Sources */,
 				471868B41D72DCD000BAD9DD /* HJQUIKitView.m in Sources */,
 				471868A21D72D5FC00BAD9DD /* HJQProgressView.m in Sources */,
+				4754B6D81D796A0000EBB4DA /* HJQCountTimeView.m in Sources */,
 				471868B01D72DB9700BAD9DD /* HJQBarView.m in Sources */,
 				471868BE1D72DF5D00BAD9DD /* HJQImageViewController.m in Sources */,
 				471868971D72D32000BAD9DD /* HJQDrawLineView.m in Sources */,
@@ -690,6 +716,7 @@
 				4718688A1D72CF5400BAD9DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4718688B1D72CF5400BAD9DD /* Build configuration list for PBXNativeTarget "HJQDrawDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +725,7 @@
 				4718688D1D72CF5400BAD9DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4718688E1D72CF5400BAD9DD /* Build configuration list for PBXNativeTarget "HJQDrawDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +734,7 @@
 				471868901D72CF5400BAD9DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
